@@ -1,0 +1,93 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+  }
+  
+  form {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #e1e1e1;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  form select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23bfbfbf' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.3 5.3L8 11l5.7-5.7c.4-.4 1-.4 1.4 0s.4 1 0 1.4L8.7 12c-.2.2-.5.3-.7.3s-.5-.1-.7-.3L2.3 6.7c-.4-.4-.4-1 0-1.4.4-.5 1-.5 1.4 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+  }
+  
+  form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #cancel {
+    background-color: #fe5e5e;
+  }
+  
+  #cancel:hover {
+    background-color: #b70e0e;
+  }
+
+  #hitung_total_bayar {
+    background-color: #008CBA;
+  }
+  
+  #hitung_total_bayar:hover {
+    background-color: #006B87;
+  }
+  
+  #total_bayar_section {
+    display: none;
+  }
+  
+  #total_bayar_section label {
+    font-weight: bold;
+  }
+  
+  #total_bayar {
+    font-weight: bold;
+  }
+  
+  #error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
